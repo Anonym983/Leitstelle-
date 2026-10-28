@@ -1,0 +1,346 @@
+{
+  "branding": {
+    "name": "Polizei Berlin",
+    "footer": "Polizei Berlin · Notruf Hamburg RP",
+    "banner_mode": "attachment"
+  },
+  "templates": {
+    "einstellung": {
+      "titel": "👮 Neueinstellung",
+      "text": "Willkommen im Team der **Polizei Berlin**!\n{user}{tag} wurde in den Polizeidienst aufgenommen.\n\n🎖️ **Dienstgrad:**\n{rang}\n\n🪪 **Dienstnummer:**\nBitte über das Dienstausweis-Panel freischalten.\n\n📝 **Einstellungsnotiz:**\n{notiz}\n\n✍️ **Gezeichnet von:**\n{direktion}",
+      "farbe": 1533423
+    },
+    "befoerderung": {
+      "titel": "🔰 Beförderung",
+      "text": "Herzlichen Glückwunsch zum nächsten Karriereschritt!\n{user} wurde mit sofortiger Wirkung befördert.\n\n👤 **Beamter:**\n{user}{tag}\n\n🎖️ **Neuer Dienstgrad:**\n{rang}\n\n📝 **Begründung:**\n{grund}\n\n✍️ **Gezeichnet von:**\n{direktion}",
+      "farbe": 2668409
+    },
+    "degradierung": {
+      "titel": "🔻 Degradierung",
+      "text": "Der Dienstgrad von {user}{tag} wurde angepasst.\n\n🎖️ **Neuer Dienstgrad:**\n{rang}\n\n📝 **Begründung:**\n{grund}\n\n✍️ **Gezeichnet von:**\n{direktion}",
+      "farbe": 15573819
+    },
+    "entlassung": {
+      "titel": "📤 Dienstentlassung",
+      "text": "{user}{tag} wurde aus dem Polizeidienst entlassen.\n\n📝 **Entlassungsgrund:**\n{grund}\n\n✍️ **Gezeichnet von:**\n{direktion}",
+      "farbe": 15555684
+    },
+    "disziplinar": {
+      "titel": "⚠️ Disziplinarmaßnahme",
+      "text": "Gegen {user}{tag} wurde eine Dienst-Warn ausgesprochen.\n\n📝 **Dienstvergehen:**\n{grund}\n\n📁 **Aktenzeichen:**\n`{az}`\n\n⏳ **Ablauf:**\n{ablauf}\n\n📊 **Aktive Maßnahmen:**\n{aktiv}\n\n✍️ **Bearbeitet von:**\n{direktion}",
+      "farbe": 15573819
+    },
+    "suspendierung": {
+      "titel": "🚨 Suspendierung",
+      "farbe": 15555684,
+      "text": "Der Beamte {user}{tag} wurde bis auf Weiteres suspendiert.\n\n📝 **Grund:** {grund}\n\n✍️ **Bearbeitet von:**\n{direktion}"
+    },
+    "suspendierung_aufgehoben": {
+      "titel": "✅ Suspendierung aufgehoben",
+      "farbe": 2668409,
+      "text": "Die Suspendierung des Beamten {user}{tag} wurde aufgehoben.\n\n✍️ **Bearbeitet von:**\n{direktion}"
+    },
+    "dienstsperre": {
+      "titel": "⛔ Dienst-Sperre",
+      "farbe": 15555684,
+      "text": "Gegen {user}{tag} wurde eine Dienst-Sperre verhängt.\n\n📝 **Grund:** {grund}\n⏱️ **Dauer:** {dauer} (bis {ablauf})\n\n✍️ *✍️ **Bearbeitet von:**\n*\n{direktion}"
+    },
+    "bewerbungssperre": {
+      "titel": "⛔ Bewerbungssperre",
+      "farbe": 15555684,
+      "text": "Gegen {user} wurde eine Bewerbungssperre verhängt. Bewerbungen des Nutzers werden für die angegebene Dauer nicht berücksichtigt.\n\n📝 **Grund:** {grund}\n⏱️ **Dauer:** {dauer} (bis {ablauf})\n\n✍️ **Bearbeitet von:**\n{direktion}"
+    },
+    "dienstbeginn": {
+      "titel": "🟢 Dienst angetreten",
+      "text": "{user} ist jetzt im Dienst.\n\n🪪 **Dienstnummer:** `{dienstnummer}`\n🕒 **Beginn:** {zeitpunkt}",
+      "farbe": 2668409
+    },
+    "dienstende": {
+      "titel": "🔴 Dienst beendet",
+      "text": "{user} hat die Schicht beendet.\n\n🪪 **Dienstnummer:** `{dienstnummer}`\n⏱️ **Geleistete Dienstzeit:** {dauer}\n\n💙 Vielen Dank für deinen Einsatz im Roleplay!",
+      "farbe": 15555684
+    },
+    "dienstende_auto": {
+      "titel": "⏱️ Automatisch ausgestempelt",
+      "text": "Die Schicht von {user} wurde automatisch beendet.\n\n⏳ **Zeitlimit:** {stunden} Stunden\n📊 **Gewertete Dienstzeit:** {dauer}\n\nℹ️ Bitte denke beim nächsten Mal ans Ausstempeln.",
+      "farbe": 15573819
+    },
+    "nummer_zugewiesen": {
+      "titel": "🪪 Dienstnummer zugewiesen",
+      "farbe": 2668409,
+      "text": "Dem Beamten {user} wurde die Dienstnummer **{nummer}** zugeteilt."
+    },
+    "nummer_entzogen": {
+      "titel": "🚫 Dienstnummer entzogen",
+      "farbe": 15555684,
+      "text": "{user}: Die Dienstnummer **{nummer}** wurde wieder freigegeben.\n**Grund:** {grund}"
+    },
+    "anwalt_ruf": {
+      "titel": "⚖️ Anwalt angefordert",
+      "farbe": 1533423,
+      "text": "Ein Anwalt wird für {user} benötigt.\n\n{rolle}, bitte meldet euch!"
+    },
+    "anwalt_panel": {
+      "titel": "⚖️ Rechtsbeistand",
+      "text": "Du benötigst im Roleplay einen Anwalt?\n\n📣 **Anwalt verständigen:**\nSchreibe **Anwalt** in diesen Kanal, um {rolle} zu benachrichtigen.\n\n⏳ **Wartezeit:**\nEine erneute Anforderung ist nach **15 Minuten** möglich.",
+      "farbe": 1533423
+    },
+    "platzverweis_panel": {
+      "titel": "🚧 Platzverweis erfassen",
+      "text": "Maßnahmen nachvollziehbar dokumentieren.\n\n📝 **Erfassen:**\nTrage Person, Ort, Grund und Dauer über das Formular ein.\n\n📋 **Dokumentation:**\nDie Meldung wird in diesem Kanal veröffentlicht.",
+      "farbe": 1533423
+    },
+    "platzverweis": {
+      "titel": "🚧 Platzverweis",
+      "farbe": 15573819,
+      "text": "Gegen **{person}** wurde ein Platzverweis ausgesprochen.\n\n📍 **Ort:** {ort}\n📝 **Grund:** {grund}\n⏱️ **Dauer:** {dauer}\n\n✍️ **Ausgestellt von:**\n{beamter}"
+    },
+    "aktivitaetscheck": {
+      "titel": "📣 Aktivitätscheck",
+      "text": "Bitte bestätige deine Aktivität über den Button.\n\n📅 **Frist:**\n{frist}\n\n⏳ **Verbleibende Zeit:**\n{relativ}\n\n⚠️ **Hinweis:**\n{warn_hinweis}",
+      "farbe": 15573819
+    },
+    "aktivitaet_ergebnis": {
+      "titel": "📋 Aktivitätscheck beendet",
+      "farbe": 1533423,
+      "text": "Der Aktivitätscheck wurde ausgewertet.\n\n✅ **Bestätigt:** {anzahl_ok}\n❌ **Nicht bestätigt:** {anzahl_fehlt}\n{warn_info}"
+    },
+    "wochenbericht": {
+      "titel": "📊 Wochenbericht Dienstzeit",
+      "farbe": 1533423,
+      "text": "Dienstzeiten der letzten 7 Tage ({von} – {bis}).\n\n⏱️ **Gesamt:** {gesamt}\n👮 **Beamte:** {anzahl}\n🎯 **Mindestsoll:** {soll}"
+    },
+    "ausbildung": {
+      "titel": "🎓 Ausbildungsnachweis",
+      "text": "Dein Fortschritt auf dem Weg in den Polizeidienst.\n\n👤 **Anwärter:** {user}\n🧑‍🏫 **Ausbilder:** {ausbilder}\n\n📘 Bestandene Module werden vom Ausbildungspersonal dokumentiert.",
+      "farbe": 1533423
+    },
+    "ausbildung_fertig": {
+      "titel": "🎉 Ausbildung abgeschlossen",
+      "farbe": 2668409,
+      "text": "{user} hat alle Ausbildungsmodule bestanden. Die Personalverwaltung kann über eine Beförderung entscheiden."
+    },
+    "dienstzeit_panel": {
+      "titel": "⏱️ Dienstverwaltung",
+      "text": "Willkommen im Dienstzeitportal der **Polizei Berlin**.\nVerwalte deine Schicht über die Schaltflächen.\n\n🟢 **Dienst antreten:**\nStarte deine Schicht und die automatische Zeiterfassung.\n\n🔴 **Dienst beenden:**\nBeende deine Schicht und speichere deine Dienstzeit.\n\nℹ️ **Bitte beachten:**\nVergiss nicht, dich auszustempeln. Bei aktiver Suspendierung oder Dienstsperre ist der Dienstbeginn gesperrt.",
+      "farbe": 1533423
+    },
+    "dienstzeit_panel_fuehrung": {
+      "titel": "🛡️ Führungszentrale · Dienstzeiten",
+      "text": "Dienstübersicht und Personalsteuerung an einem Ort.\n\n🟢 **Eigener Dienst:**\nSchicht beginnen, beenden und persönliche Zeiten abrufen.\n\n📊 **Personalübersicht:**\nDienstzeiten einsehen und laufende Schichten beenden.\n\n📡 **Live-Status:**\nDie Liste wird bei Dienständerungen aktualisiert.",
+      "farbe": 1533423
+    },
+    "dienstende_fuehrung": {
+      "titel": "⏹️ Dienst durch Führung beendet",
+      "text": "Die laufende Schicht von {user} wurde beendet.\n\n⏱️ **Dienstzeit:** {dauer}\n✍️ **Bearbeitet von:** {direktion}",
+      "farbe": 15573819
+    },
+    "aufgerueckt": {
+      "titel": "⬆️ Dienstnummern aufgerückt",
+      "farbe": 2668409,
+      "text": "Ab **{nummer}** sind {anzahl} Beamte aufgerückt.\n\n{liste}\n\n*Durchgeführt von:* {direktion}"
+    },
+    "nummern_panel": {
+      "titel": "🪪 Dienstnummernverwaltung",
+      "text": "Verwalte das Personalregister zentral.\n\n🔎 **Nummer abfragen:**\nSuche nach Dienstnummer oder Roblox-Benutzername.\n\n📋 **Freie Nummern:**\nRufe die verfügbaren Dienstnummern ab.\n\n⬆️ **Aufrücken:**\nSchließe eine Nummernlücke. Bestehende Dienstnummern können sich ändern.",
+      "farbe": 1533423
+    },
+    "ausbildung_panel": {
+      "titel": "🎓 Ausbildungszentrum",
+      "text": "Dein Weg in den Polizeidienst beginnt hier.\n\n📘 **Meine Ausbildung:**\nSieh dir deine Module und deinen Fortschritt an.\n\n🧑‍🏫 **Für Ausbilder:**\nStarte neue Ausbildungen und verwalte laufende Nachweise.\n\n✅ **Abschluss:**\nNach bestandenen Modulen wird der Abschluss im Tracker angezeigt.",
+      "farbe": 1533423
+    },
+    "dienstausweis_panel": {
+      "titel": "🪪 Personalregister · Dienstnummer",
+      "text": "Willkommen bei der **Polizei Berlin**.\n\n📝 **Registrierung:**\nBeantrage deine Dienstnummer über den Button.\n\n🎮 **Roblox-Benutzername:**\nVerwende deinen Benutzernamen, nicht deinen Anzeigenamen.\n\nℹ️ Dieses Register gehört ausschließlich zu unserer Roleplay-Community.",
+      "farbe": 1533423
+    },
+    "ausweis_panel": {
+      "titel": "📄 Bürgerbüro · Anträge",
+      "text": "Deine RP-Dokumente an einem Ort.\n\n📝 **Antrag stellen:**\nWähle das gewünschte Dokument im Auswahlmenü.\n\n🔎 **Prüfung:**\nDas zuständige Personal prüft deine Angaben.\n\nℹ️ Alle Dokumente sind fiktiv und nur für das Roleplay bestimmt.",
+      "farbe": 1533423
+    },
+    "antrag_angenommen": {
+      "titel": "✅ Antrag angenommen",
+      "text": "Dein Antrag wurde erfolgreich geprüft.\n\n📄 **Dokument:** {typ}\n📁 **Antragsnummer:** `#{id}`\n🟢 **Entscheidung:** Angenommen",
+      "farbe": 2668409
+    },
+    "antrag_abgelehnt": {
+      "titel": "❌ Antrag abgelehnt",
+      "text": "Dein Antrag konnte nicht genehmigt werden.\n\n📄 **Dokument:** {typ}\n📁 **Antragsnummer:** `#{id}`\n📝 **Begründung:** {grund}",
+      "farbe": 15555684
+    }
+  },
+  "texte_weitere": {
+    "dienstzeit_panel_embed.feld.01": "👮 Aktuell im Dienst ({v0})",
+    "on_message.antwort.01": "⏳ Bitte warte noch **{v0} Minuten**.",
+    "on_message.antwort.02": "<@&{v0}>",
+    "anwalt_panel.antwort.01": "✅ Panel erstellt!",
+    "hilfe.titel.01": "📖 Hilfe | {v0}",
+    "hilfe.text.02": "Hier siehst du alle Befehle, die für dich verfügbar sind.",
+    "rang_pruefen.antwort.01": "❌ Bots können nicht verwaltet werden.",
+    "rang_pruefen.antwort.02": "❌ Diese Rolle ist kein gültiger Dienstgrad (siehe `TEAMLISTE_RAENGE`).",
+    "rangwechsel.antwort.01": "❌ {v0}",
+    "rangwechsel.antwort.02": "⚠️ Rollen wurden geändert, aber der Kanal wurde nicht gefunden.",
+    "rangwechsel.antwort.03": "✅ Rollen angepasst & Meldung gepostet.",
+    "einstellung.antwort.01": "❌ {v0}",
+    "entlassung.antwort.01": "❌ Deine Berechtigung ist nicht mehr vorhanden.",
+    "entlassung.antwort.02": "❌ Bots können nicht verwaltet werden.",
+    "entlassung.antwort.03": "❌ {v0}",
+    "warn.antwort.01": "✅ Maßnahme gepostet. Aktenzeichen: `{v0}`{v1}",
+    "warns.antwort.01": "✅ {v0} hat keine aktiven Warns.",
+    "warns.titel.02": "⚠️ Aktive Warns: {v0}",
+    "warn_entfernen.antwort.01": "❌ Kein Eintrag mit diesem Aktenzeichen gefunden.",
+    "suspendierung_aufheben.antwort.01": "❌ Dieser Beamte ist nicht suspendiert.",
+    "dienstsperre_aufheben.antwort.01": "❌ Dieser Beamte hat keine aktive Dienstsperre.",
+    "bewerbungssperre.antwort.01": "✅ Bewerbungssperre gepostet & gespeichert.",
+    "_dienstzeit_aktion.antwort.01": "❌ Dieses Panel ist nur für die Führungsebene.",
+    "_dienstzeit_aktion.antwort.02": "❌ Nur Beamte können sich ein-/ausstempeln.",
+    "_dienstzeit_aktion.antwort.03": "⛔ Du bist suspendiert und kannst dich nicht einstempeln.",
+    "_dienstzeit_aktion.antwort.04": "⛔ Du hast eine Dienstsperre bis {v0} und kannst dich nicht einstempeln.",
+    "_dienstzeit_aktion.antwort.05": "❌ Du bist bereits im Dienst.",
+    "_dienstzeit_aktion.antwort.06": "❌ Du bist nicht im Dienst.",
+    "_dienstzeit_aktion.antwort.07": "✅ Eingetragen.",
+    "_dienstzeit_info_anzeigen.antwort.01": "❌ Fremde Dienstzeiten darf nur die Führung sehen.",
+    "_dienstzeit_info_anzeigen.titel.02": "⏱️ Dienstzeit: {v0}",
+    "_dienstzeit_info_anzeigen.feld.03": "Letzte 7 Tage",
+    "_dienstzeit_info_anzeigen.feld.04": "Letzte 30 Tage",
+    "ein.label.01": "Einstempeln",
+    "aus.label.01": "Ausstempeln",
+    "auswahl.antwort.01": "❌ Nur für die Führungsebene.",
+    "auswahl.antwort.02": "❌ Dieser Nutzer kann nicht ausgewählt werden.",
+    "auswahl.antwort.03": "❌ Dieser Beamte ist nicht im Dienst.",
+    "auswahl.antwort.04": "✅ Beamter wurde ausgestempelt.",
+    "auswahl.placeholder.05": "Beamten auswählen …",
+    "ein.label.02": "Einstempeln",
+    "aus.label.02": "Ausstempeln",
+    "meine.antwort.01": "❌ Nur für die Führungsebene.",
+    "meine.label.02": "Meine Dienstzeit",
+    "beamter.antwort.01": "❌ Nur für die Führungsebene.",
+    "beamter.antwort.02": "Wähle den Beamten aus:",
+    "beamter.label.03": "Dienstzeit eines Beamten",
+    "ausstempeln.antwort.01": "❌ Nur für die Führungsebene.",
+    "ausstempeln.antwort.02": "Wähle den Beamten aus:",
+    "ausstempeln.label.03": "Beamten ausstempeln",
+    "dienstzeit_panel.antwort.01": "✅ Polizisten-Panel erstellt!",
+    "dienstzeit_panel_fuehrung.antwort.01": "❌ Konnte hier nicht posten (fehlende Rechte?).",
+    "dienstzeit_panel_fuehrung.antwort.02": "✅ Führungs-Panel erstellt! Die Liste „Aktuell im Dienst“ aktualisiert sich automatisch.",
+    "wochenbericht_senden.feld.01": "🏆 Rangliste",
+    "wochenbericht_senden.feld.02": "✅ Mindestsoll",
+    "wochenbericht_senden.feldwert.03": "Alle haben das Mindestsoll erreicht.",
+    "bestaetigen.antwort.01": "❌ Dieser Check ist bereits beendet.",
+    "bestaetigen.antwort.02": "❌ Nur Beamte können bestätigen.",
+    "bestaetigen.antwort.03": "✅ Du hast bereits bestätigt.",
+    "bestaetigen.antwort.04": "✅ Aktivität bestätigt. Danke!",
+    "bestaetigen.label.05": "Aktivität bestätigen",
+    "liste.antwort.01": "❌ Check nicht gefunden.",
+    "liste.titel.02": "📋 Wer hat bestätigt?",
+    "liste.feld.03": "✅ Bestätigt ({v0})",
+    "liste.feld.04": "⏳ Noch offen ({v0})",
+    "liste.label.05": "Wer hat bestätigt?",
+    "aktivitaetscheck.antwort.01": "<@&{v0}>",
+    "aktivitaetscheck.antwort.02": "❌ Konnte hier nicht posten (fehlende Rechte?).",
+    "aktivitaetscheck.antwort.03": "✅ Aktivitätscheck gestartet ({v0}h Frist).",
+    "PlatzverweisModal.label.01": "Person (Ingame-/Roblox-Name)",
+    "PlatzverweisModal.label.02": "Ort",
+    "PlatzverweisModal.placeholder.03": "z.B. Hauptbahnhof",
+    "PlatzverweisModal.label.04": "Grund",
+    "PlatzverweisModal.label.05": "Dauer",
+    "PlatzverweisModal.placeholder.06": "z.B. 24 Stunden",
+    "eintragen.antwort.01": "❌ Nur Beamte dürfen Platzverweise ausstellen.",
+    "eintragen.label.02": "Platzverweis eintragen",
+    "platzverweis_panel.antwort.01": "✅ Panel erstellt!",
+    "ausbildung_embed.feld.01": "Fortschritt {v0}/{v1} ({v2}%)",
+    "callback.antwort.01": "❌ Nur Ausbilder dürfen Module abhaken.",
+    "callback.antwort.02": "❌ Tracker nicht gefunden.",
+    "callback.antwort.03": "<@&{v0}>",
+    "ausbildung_start.antwort.01": "❌ Für diesen Anwärter läuft bereits ein Tracker.",
+    "ausbildung_start.antwort.02": "❌ Konnte den Tracker nicht posten (Kanal/Rechte prüfen).",
+    "ausbildung_start.antwort.03": "✅ Tracker gestartet.",
+    "ausbildung_status.antwort.01": "❌ Für diesen Nutzer gibt es keinen Tracker.",
+    "auswahl.antwort.06": "❌ Nur Ausbilder dürfen Ausbildungen starten.",
+    "auswahl.antwort.07": "❌ Dieser Nutzer kann nicht ausgewählt werden.",
+    "auswahl.placeholder.08": "Anwärter auswählen …",
+    "meine.antwort.03": "❌ Für dich läuft aktuell keine Ausbildung.",
+    "meine.label.04": "Meine Ausbildung",
+    "starten.antwort.01": "❌ Nur Ausbilder dürfen Ausbildungen starten.",
+    "starten.antwort.02": "Wähle den Anwärter aus:",
+    "starten.label.03": "Ausbildung starten",
+    "liste.antwort.06": "❌ Nur Ausbilder sehen diese Übersicht.",
+    "liste.titel.07": "📋 Laufende Ausbildungen ({v0})",
+    "liste.label.08": "Laufende Ausbildungen",
+    "ausbildung_panel.antwort.01": "✅ Panel erstellt!",
+    "dienstnummer.antwort.01": "❌ Ungültige Nummer. Erlaubt: {v0}01 bis {v1}{v2}.",
+    "dienstnummer.antwort.02": "❌ {v0}",
+    "dienstnummer.feld.03": "🔄 Übertragung",
+    "dienstnummer.feldwert.04": "<@{v0}> hat dafür **{v1}** erhalten.",
+    "klick.antwort.01": "❌ Nur die Führungsebene darf aufrücken.",
+    "klick.antwort.02": "❌ Hier wurde bereits aufgerückt.",
+    "klick.titel.03": "🚫 Dienstnummer entzogen",
+    "klick.feld.04": "⬆️ Aufrücken",
+    "klick.label.05": "Nummern aufrücken",
+    "AufrueckenModal.label.01": "Freie Dienstnummer, die geschlossen wird",
+    "AufrueckenModal.placeholder.02": "z.B. BLP05 oder 5",
+    "on_submit.antwort.01": "❌ Nur die Führungsebene darf aufrücken.",
+    "on_submit.antwort.02": "❌ Ungültige Dienstnummer.",
+    "abfrage.antwort.01": "❌ Nur für die Führungsebene.",
+    "abfrage.label.02": "Nummer abfragen",
+    "frei.antwort.01": "❌ Nur für die Führungsebene.",
+    "frei.titel.02": "📋 Freie Dienstnummern",
+    "frei.label.03": "Freie Nummern",
+    "aufruecken_btn.antwort.01": "❌ Nur für die Führungsebene.",
+    "aufruecken_btn.label.02": "Aufrücken",
+    "dienstnummer_panel.antwort.01": "✅ Panel erstellt!",
+    "abgleich_cmd.antwort.01": "✅ Abgleich abgeschlossen.",
+    "DienstausweisModal.label.01": "Roblox Benutzername",
+    "DienstausweisModal.placeholder.02": "z.B. Max_Mustermann123",
+    "on_submit.antwort.03": "❌ Du hast die Beamten-Rolle noch nicht. Bitte wende dich an das Personalbüro.",
+    "on_submit.antwort.04": "❌ {v0}",
+    "on_submit.antwort.05": "✅ {v0}!\nDeine Dienstnummer: **{v1}**\nRoblox-Name: **{v2}**",
+    "start.label.01": "Dienstausweis beantragen",
+    "dienstausweis_setup.antwort.01": "✅ Panel erstellt!",
+    "__init__.label.01": "Ingame Name",
+    "__init__.placeholder.02": "z.B. Max Mustermann",
+    "__init__.label.03": "Geburtsdatum",
+    "__init__.placeholder.04": "z.B. 01.01.2000",
+    "__init__.label.05": "Roblox Name",
+    "__init__.placeholder.06": "z.B. max_muster",
+    "on_submit.antwort.06": "❌ Antrags-Kanal nicht konfiguriert.",
+    "on_submit.titel.07": "🪪 {v0}",
+    "on_submit.feld.08": "Name",
+    "on_submit.feld.09": "Geburtsdatum",
+    "on_submit.feld.10": "Roblox Name",
+    "on_submit.feld.11": "Status",
+    "on_submit.feldwert.12": "⏳ Offen",
+    "on_submit.antwort.13": "Antrag von {v0}",
+    "on_submit.antwort.14": "❌ Antrag konnte nicht zugestellt werden.",
+    "on_submit.antwort.15": "✅ Dein Antrag **#{v0}** wurde eingereicht!",
+    "antrag_embed_status.titel.01": "🪪 Antrag",
+    "antrag_embed_status.feld.02": "Status",
+    "antrag_abschliessen.antwort.01": "<@{v0}>",
+    "AblehnenModal.label.01": "Grund",
+    "on_submit.antwort.16": "❌ Keine Berechtigung mehr vorhanden.",
+    "on_submit.antwort.17": "✅ Antrag abgelehnt.",
+    "_laden.antwort.01": "❌ Keine Berechtigung.",
+    "_laden.antwort.02": "❌ Antrag nicht gefunden oder bereits bearbeitet.",
+    "annehmen.label.01": "Annehmen",
+    "ablehnen.label.01": "Ablehnen",
+    "ausweis_panel.antwort.01": "✅ Panel erstellt!",
+    "DatenbankAbfrageModal.label.01": "Dienstnummer oder Roblox-Name",
+    "DatenbankAbfrageModal.placeholder.02": "z.B. BLP05 oder Max_Mustermann",
+    "on_submit.titel.18": "❌ Eintrag nicht gefunden",
+    "on_submit.titel.19": "🟢 Dienstnummer frei",
+    "on_submit.text.20": "Die Dienstnummer **{v0}** ist aktuell **frei** und niemandem zugeordnet.",
+    "on_submit.titel.21": "💻 Polizeiliches Register",
+    "on_submit.feld.22": "👤 Discord Account",
+    "on_submit.feld.23": "🪪 Dienstnummer",
+    "on_submit.feldwert.24": "**{v0}**",
+    "on_submit.feld.25": "🎮 Roblox-Name",
+    "on_submit.feldwert.26": "**{v0}**",
+    "abfrage.antwort.03": "❌ Nur Beamte dürfen das Register abfragen.",
+    "abfrage.label.04": "Registerabfrage starten",
+    "datenbank_panel.antwort.01": "✅ Datenbank-Panel erstellt!",
+    "datenbank_panel.titel.02": "💻 Polizeiliche Datenbank",
+    "datenbank_panel.text.03": "Nutze dieses Terminal für Abfragen im Personalregister.\n\n🔎 **Suche:**\nDienstnummer oder Roblox-Benutzername eingeben.\n\n📁 **Daten:**\nEs werden ausschließlich die im RP-Bot gespeicherten Angaben abgefragt."
+  }
+}
